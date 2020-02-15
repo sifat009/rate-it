@@ -2,13 +2,14 @@ import React from "react";
 
 export default function rate() {
   return (
-    <div>
+    <>
       <button
-        className="ui button"
+        className="ui grey basic button"
         style={{
           display: "flex",
           flexDirection: "column",
-          alignContent: "center"
+          alignContent: "center",
+          marginRight: "5px"
         }}
       >
         <i
@@ -17,6 +18,6 @@ export default function rate() {
         ></i>
         <span className="rate-number">100</span>
       </button>
-    </div>
+    </>
   );
 }
